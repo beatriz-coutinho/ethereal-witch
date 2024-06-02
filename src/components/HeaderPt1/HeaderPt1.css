@@ -3,10 +3,11 @@
     align-items: center;
     justify-content: center;
     background-color: var(--bazaar);
+    padding-bottom: 40px;
 }
 
 .headerpt1-section > h1 {
-    font-size: 65px;
+    font-size: 55px;
 }
 
 .headerpt1-section > img {

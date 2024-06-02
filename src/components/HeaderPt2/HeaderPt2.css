@@ -15,5 +15,14 @@
 .headerpt2-container > div {
     display: flex;
     gap: 20px;
-    justify-content: end;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .headerpt2-container > div {
+        justify-content: end;
+        margin-right: 20px;
+    }
 }
