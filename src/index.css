@@ -4,7 +4,8 @@
   --catawba: #79363F;
   --dark-sienna: #391011;
   --smoky-black: #0C0C07;
-  --main-font: 'Tangerine', cursive
+  --main-font: 'Tangerine', cursive;
+  --second-font: 'Roboto Mono', monospace;
 }
 
 * {

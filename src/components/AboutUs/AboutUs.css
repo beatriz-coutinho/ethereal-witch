@@ -1,0 +1,95 @@
+.about-us-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--philipines-silver);
+    padding-top: 45px;
+    padding-bottom: 45px
+}
+
+.about-us-container {
+    max-width: 1140px;
+}
+
+.witch-n-knight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(100px, 300px);
+    grid-template-areas: 
+        'knight witch'
+    ;
+}
+
+.witch {
+    grid-area: witch;
+}
+
+.knight {
+    grid-area: knight;
+}
+
+.witch > img,
+.knight > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about-us-text {
+    max-width: 738px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: var(--smoky-black)
+}
+
+.about-us-text > h2 {
+text-align: center;
+    font-size: 75px;
+    padding: 20px 0 0;
+    background: linear-gradient(45deg, var(--bazaar) 25%, var(--dark-sienna)75%);
+    color: transparent;
+    background-clip: text;
+}
+
+.about-us-text > p {
+    font-size: 20px;
+    font-family: var(--second-font);
+    max-width: 92%;
+    margin: 12px auto 0;
+}
+
+.about-us-text > p > span,
+.about-us-text > div > p {
+    color: var(--dark-sienna);
+    font-size: 45px;
+    font-family: var(--main-font);
+}
+
+.about-us-text > div {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-text > div > img {
+    width: 150px;
+}
+
+.about-us-text > div > p {
+    text-align: end;
+    width: fit-content;
+    background: linear-gradient(45deg, var(--bazaar), var(--dark-sienna));
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+
+@media screen and (min-width: 1025px) {
+    .about-us-container {
+        display: flex;
+        align-items: center;
+    }
+}

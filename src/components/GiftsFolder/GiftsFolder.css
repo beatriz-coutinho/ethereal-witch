@@ -10,13 +10,16 @@
     max-width: 1140px;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .gifts-folder-container > div:first-of-type {
-    width: 45%;
+    width: 100%;
     height: 430px;
     background: linear-gradient(45deg, var(--philipines-silver), var(--bazaar));
-    border-radius: 150px;
+    border-radius: 80px;
+    max-width: 430px;
+    margin: 0 auto;
 }
 
 .gifts-folder-container > div:first-of-type > img {
@@ -30,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 55%;
+    width: 100%;
 }
 
 .gifts-folder-container > div:last-of-type > h2 {
@@ -38,6 +41,7 @@
     background: linear-gradient(45deg, var(--bazaar), var(--dark-sienna));
     color: transparent;
     background-clip: text;
+    text-align: center;
 }
 
 .gifts-folder-container > div:last-of-type > h3 {
@@ -50,4 +54,22 @@
 
 .gifts-folder-container > div:last-of-type > img {
     width: 50px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .gifts-folder-container {
+        flex-direction: row;
+    }
+    
+    .gifts-folder-container > div:last-of-type {
+        width: 55%;
+    }
+
+    .gifts-folder-container > div:first-of-type {
+        width: 45%;
+        border-radius: 150px;
+    }
 }
