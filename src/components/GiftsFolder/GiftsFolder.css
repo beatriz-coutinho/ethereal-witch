@@ -15,7 +15,7 @@
 .gifts-folder-container > div:first-of-type {
     width: 45%;
     height: 430px;
-    background: linear-gradient(45deg, #9756b887, #5452d4bb);
+    background: linear-gradient(45deg, var(--philipines-silver), var(--bazaar));
     border-radius: 150px;
 }
 
@@ -35,14 +35,14 @@
 
 .gifts-folder-container > div:last-of-type > h2 {
     font-size: 80px;
-    background: linear-gradient(45deg, #9756b887, #5452d4);
+    background: linear-gradient(45deg, var(--bazaar), var(--dark-sienna));
     color: transparent;
     background-clip: text;
 }
 
 .gifts-folder-container > div:last-of-type > h3 {
     font-size: 50px;
-    background: linear-gradient(45deg, #9756b887, #5452d4);
+    background: linear-gradient(45deg, var(--dark-sienna), var(--bazaar));
     color: transparent;
     background-clip: text;
     margin-bottom: 25px;

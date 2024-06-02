@@ -7,24 +7,24 @@
     gap: 10px;
     padding: 10px;
     border-radius: 8px;
+    background-size: 200% 200%;
+    animation: movement 3s ease-in-out infinite;
 }
 
 @keyframes movement {
     0% {
-        background-size: 400% 400%;
         background-position: 0% 50%;
-    } 50% {
-        background-size: 400% 400%;
+    } 
+    50% {
         background-position: 100% 50%;
-    } 100% {
-        background-size: 400% 400%;
+    } 
+    100% {
         background-position: 0% 50%;
     }
 }
 
 .start-buying-button:hover {
     cursor: pointer;
-    animation: movement 3s infinite;
 }
 
 .start-buying-button > img {
