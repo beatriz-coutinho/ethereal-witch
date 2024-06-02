@@ -1,0 +1,14 @@
+.headerpt1-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bazaar);
+}
+
+.headerpt1-section > h1 {
+    font-size: 65px;
+}
+
+.headerpt1-section > img {
+    max-width: 85px;
+}

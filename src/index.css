@@ -1,0 +1,15 @@
+:root {
+  --philipines-silver: #B1B5B8;
+  --bazaar: #98767A;
+  --catawba: #79363F;
+  --dark-sienna: #391011;
+  --smoky-black: #0C0C07;
+  --main-font: 'Tangerine', cursive
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
