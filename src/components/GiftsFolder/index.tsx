@@ -1,6 +1,6 @@
 import './GiftsFolder.css'
 import bcwg from '../../assets/black-cat-with-glasses.png'
-import cwl from '../../assets/crystal-with-lavender.png'
+import { StartBuyingButton } from '../StartBuyingButton'
 
 export const GiftsFolder = () => {
     return (
@@ -12,7 +12,7 @@ export const GiftsFolder = () => {
                 <div>
                     <h2>Buy over $200.00</h2>
                     <h3>and get ethereal gifts </h3>
-                    <img src={cwl} />
+                    <StartBuyingButton color1='#B699D8' color2='#5F5AD4' />
                 </div>
             </div>
         </section>

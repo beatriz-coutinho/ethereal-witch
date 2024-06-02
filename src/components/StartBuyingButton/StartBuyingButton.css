@@ -1,0 +1,32 @@
+.start-buying-button {
+    border: none;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@keyframes movement {
+    0% {
+        background-size: 400% 400%;
+        background-position: 0% 50%;
+    } 50% {
+        background-size: 400% 400%;
+        background-position: 100% 50%;
+    } 100% {
+        background-size: 400% 400%;
+        background-position: 0% 50%;
+    }
+}
+
+.start-buying-button:hover {
+    cursor: pointer;
+    animation: movement 3s infinite;
+}
+
+.start-buying-button > img {
+    width: 25px;
+}
