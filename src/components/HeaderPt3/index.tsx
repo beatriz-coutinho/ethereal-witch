@@ -32,7 +32,7 @@ export const HeaderPt3 = () => {
         }
     ]
 
-    const [largura, setLargura] = useState(0)
+    const [largura, setLargura] = useState(window.innerWidth)
     const [isOpen, setIsOpen] = useState(false)
     const [clicado, setClicado] = useState(0)
 

@@ -1,0 +1,51 @@
+.gifts-folder-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gifts-folder-container {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+}
+
+.gifts-folder-container > div:first-of-type {
+    width: 45%;
+    height: 430px;
+    background: linear-gradient(45deg, #9756b887, #5452d4bb);
+    border-radius: 150px;
+}
+
+.gifts-folder-container > div:first-of-type > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gifts-folder-container > div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+}
+
+.gifts-folder-container > div:last-of-type > h2 {
+    font-size: 80px;
+    background: linear-gradient(45deg, #9756b887, #5452d4);
+    color: transparent;
+    background-clip: text;
+}
+
+.gifts-folder-container > div:last-of-type > h3 {
+    font-size: 50px;
+    background: linear-gradient(45deg, #9756b887, #5452d4);
+    color: transparent;
+    background-clip: text;
+}
+
+.gifts-folder-container > div:last-of-type > img {
+    width: 50px;
+}
