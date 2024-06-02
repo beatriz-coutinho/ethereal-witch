@@ -1,0 +1,19 @@
+.headerpt2-section {
+    background-color: var(--dark-sienna);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.headerpt2-container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+.headerpt2-container > div {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
