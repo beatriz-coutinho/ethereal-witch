@@ -6,7 +6,7 @@ import stamp2 from '../../assets/stamp2.png'
 
 export const AboutUs = () => {
     return (
-        <section className='about-us-section'>
+        <section id='sectionAbout' className='about-us-section'>
             <div className='about-us-container'>
                 <div className='witch-n-knight'>
                     <div>
@@ -22,11 +22,11 @@ export const AboutUs = () => {
                 </div>
                 <div className='about-us-text'>
                     <h2>About Us</h2>
-                    <p>Bem-vindos à nossa lojinha web de <span>bruxaria etérea</span>!</p> 
-                    <p>Somos um projeto desenvolvido com muito carinho e dedicação, focado em trazer um pouco de magia e mistério para o mundo digital.</p>
-                    <p>Estamos estudando React para aprimorar nossas habilidades e este site é um reflexo do nosso aprendizado. Todas as imagens foram encontradas na internet e não são de nossa autoria. As vendas não são reais, sendo tudo apenas para fins de demonstração e treino.</p>
-                    <p>Agradecemos pela visita e esperamos que você aproveite a experiência mágica! Clique nas imagens para mais informações.</p>
-                    <p>Abraços mágicos,</p>
+                    <p>Welcome to our <span>ethereal witchcraft</span> webstore!</p>
+                    <p>This project is being developed with great care and dedication, aiming to bring some magic into the digital world.</p>
+                    <p>We're a couple of software developers working together to improve our habilities in React, TS and API and this webstore is a small reflection of how is it going. All the images used here were found online and are not of our authorship. The sales are not real, however, we found online inspiration in real webstores where you can find amazing and magical products.</p>
+                    <p>We're thankfull for your stay and hope you enjoy the magical experience. Click the images for more information about us.</p>
+                    <p>Ethereal hugs,</p>
                     <div>
                         <p>— The Knight & The Witch</p>
                         <img src={stamp2} />

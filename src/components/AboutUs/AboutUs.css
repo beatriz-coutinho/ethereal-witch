@@ -5,7 +5,7 @@
     align-items: center;
     background-color: var(--philipines-silver);
     padding-top: 45px;
-    padding-bottom: 45px
+    padding-bottom: 45px;
 }
 
 .about-us-container {
@@ -34,6 +34,16 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.witch > img:hover {
+    -webkit-filter: drop-shadow(8px 8px 16px rgb(142, 49, 255));
+    filter: drop-shadow(8px 8px 16px rgb(142, 49, 255));
+}
+
+.knight > img:hover {
+    -webkit-filter: drop-shadow(8px 8px 16px red);
+    filter: drop-shadow(8px 8px 16px red);
 }
 
 .about-us-text {
