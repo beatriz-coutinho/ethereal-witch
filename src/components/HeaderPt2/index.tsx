@@ -26,24 +26,24 @@ export const HeaderPt2 = () => {
             ]
         },
         {
-            titulo: 'Velas',
-            caminho: '/velas'
+            titulo: 'Candles',
+            caminho: '/candles'
         },
         {
-            titulo: 'Coleções',
-            caminho: '/colecoes'
+            titulo: 'Colections',
+            caminho: '/colections'
         },
         {
-            titulo: 'Cristais',
-            caminho: '/cristais'
+            titulo: 'Crystals',
+            caminho: '/crystals'
         },
         {
             titulo: 'Tarot',
             caminho: '/tarot'
         },
         {
-            titulo: 'Acessórios',
-            caminho: '/acessorios'
+            titulo: 'Witchcraft',
+            caminho: '/witchcraft'
         }
     ]
 
