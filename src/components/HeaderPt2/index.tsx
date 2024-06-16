@@ -31,7 +31,7 @@ export const HeaderPt2 = () => {
         },
         {
             titulo: 'Colections',
-            caminho: '/colections'
+            caminho: '/collections'
         },
         {
             titulo: 'Crystals',
@@ -44,6 +44,10 @@ export const HeaderPt2 = () => {
         {
             titulo: 'Witchcraft',
             caminho: '/witchcraft'
+        },
+        {
+            titulo: 'Log in/out',
+            caminho: 'login'
         }
     ]
 
@@ -123,24 +127,39 @@ export const HeaderPt2 = () => {
                                 {
                                     listaMenu.map((item, index) => {
                                         return <Link
-                                        className='headerpt3-big-lista'
-                                         to={item.caminho} >
-                                            <li 
-                                            onClick={() => setClicado(index)}
-                                            key={index} >
+                                            className='headerpt3-big-lista'
+                                            to={item.caminho} >
+                                            <li
+                                                onMouseEnter={() => index === 1 && setShowSubMenu(true)}
+                                                onMouseOut={() => index !== 1 && setShowSubMenu(false)}
+                                                key={index} >
                                                 {item.titulo}
                                             </li>
                                         </Link>
                                     })
                                 }
                                 {
-                                    clicado === 1 ? (
-                                        <div className='about-us-menu'>
-                                            alo mundo, 
-                                            vamos, 
-                                            la,
+                                    showSubMenu === true ? (
+                                        <div 
+                                            className='about-us-menu'
+                                            onMouseEnter={() => setShowSubMenu(true)}
+                                            onMouseLeave={() => setShowSubMenu(false)}
+                                        >
+                                            <ul>
+                                                <Link className='knight-n-witch' to='/theknight'>
+                                                    <li>
+                                                        The Knight
+                                                    </li>
+                                                </Link>
+                                                <Link className='knight-n-witch' to='./thewitch'>
+                                                    <li>
+                                                        The Witch
+                                                    </li>
+                                                </Link>
+                                            </ul>
+
                                         </div>
-                                    ): ''
+                                    ) : ''
                                 }
                             </ul>
                         </div>

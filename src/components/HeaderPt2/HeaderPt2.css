@@ -90,25 +90,35 @@
 
     .headerpt3-big-lista {
         text-decoration: none;
-        color: var(--philipines-silver)
+        color: var(--philipines-silver);
+    }
+
+    .headerpt3-big-lista:hover {
+        color: var(--dark-sienna);
     }
 
     .about-us-menu {
         width: fit-content;
         position: absolute;
-        bottom: -110px;
-        left: 160px;
-        background-color: var(--philipines-silver);
+        bottom: -135px;
+        left: 145px;
+        background-color: var(--bazaar);
         padding: 4px 15px;
         color: var(--dark-sienna)
     }
 
     .about-us-menu ul {
-        list-style: none;
+        list-style: '☪';
+        padding-left: 50px;
+        padding-right: 25px;
     }
 
-    .kight-n-witch {
+    .knight-n-witch {
         text-decoration: none;
         color: var(--dark-sienna);
+    }
+
+    .knight-n-witch li:hover {
+        color: var(--philipines-silver);
     }
 }
